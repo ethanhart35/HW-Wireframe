@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="sytle.css">
-    <title>About me</title>
+    <title>Contact</title>
 </head>
 
 
@@ -18,30 +18,34 @@
         <a href="index.html" id="logo">Ethan Hart</a>
         <nav>
             <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="portfolio.html">portfolio</a>
             <a href="contact.html">Contact</a>
         </nav>
         </div>
     </header>
+
     <div id="main-container" class="container">
     <section class="main-section">
-        <h1>About Me</h1>
+        <h1>Contact</h1>
 
-        <img src="image0.jpg" class="auth-image" alt="My Picture">
+        <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                </li>
+                <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required="required"></textarea>
+                </li>
+            </ul>
+            <input type="submit" name="submit">
+        </form>
 
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Repellat laborum corporis nemo earum nam accusantium laudantium! 
-            Nisi, praesentium facere non neque magnam id modi 
-            eaque aliquam rerum sint accusantium optio?
-        </p>
-
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Voluptates tempora hic culpa totam tempore, soluta in? 
-            Temporibus, inventore facere quis nam placeat corrupti 
-            odio minus ratione aliquam provident doloremque officia.
-        </p>
     </section>
 
     <section class="sidebar">
